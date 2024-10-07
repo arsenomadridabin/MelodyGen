@@ -1,9 +1,9 @@
 # MelodyGen
 
 ## Train
-Comment out inference()
-
+Comment out inference method for traininng purpose
+a
 ## Inference
-Comment out train()
+Comment out train for inference purpose
 
 

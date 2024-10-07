@@ -1,4 +1,4 @@
-# MusicGeneration
+# MelodyGen
 
 ## Train
 Comment out inference()

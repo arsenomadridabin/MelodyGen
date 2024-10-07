@@ -1,9 +1,0 @@
-Logging initialized. Log file: logs/training_20241007_111659.log
-Starting the training process
-Using device: cpu
-Loading and processing MIDI data
-MIDI data shape: torch.Size([10399, 51])
-Training parameters: batch_size=32, epochs=300
-DataLoader created with 325 batches
-Composer initialized with vocab_size=374, d_model=256, n_head=8, dim_ff=512, num_layers=6
-Composer model initialized and moved to device

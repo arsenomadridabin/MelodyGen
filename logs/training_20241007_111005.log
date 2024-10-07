@@ -1,0 +1,17 @@
+Logging initialized. Log file: logs/training_20241007_111005.log
+Starting the training process
+Using device: cpu
+Loading and processing MIDI data
+MIDI data shape: torch.Size([10148, 51])
+Training parameters: batch_size=32, epochs=300
+DataLoader created with 318 batches
+Composer initialized with vocab_size=374, d_model=256, n_head=8, dim_ff=512, num_layers=6
+Composer model initialized and moved to device
+Error in train method: Subclasses must implement the 'train' method.
+Traceback: Traceback (most recent call last):
+  File "/Users/abinshakya/Documents/7thSemester/DeepLearning7343/PianoGen/main.py", line 93, in train
+    super().train(x)
+  File "/Users/abinshakya/Documents/7thSemester/DeepLearning7343/PianoGen/base.py", line 33, in train
+    raise NotImplementedError("Subclasses must implement the 'train' method.")
+NotImplementedError: Subclasses must implement the 'train' method.
+

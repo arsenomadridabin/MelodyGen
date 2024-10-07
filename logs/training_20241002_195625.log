@@ -1,0 +1,31 @@
+2024-10-02 19:56:25 - INFO - Script started
+2024-10-02 19:56:25 - INFO - Starting data preparation
+2024-10-02 19:56:34 - INFO - Data prepared: X_train shape: (566250, 50), y_train shape: (566250, 50)
+2024-10-02 19:56:34 - INFO - DataLoader created with batch_size=500
+2024-10-02 19:56:35 - INFO - Model created and moved to device: cpu
+2024-10-02 19:56:35 - INFO - Model structure: MyModel(
+  (embedding): Embedding(382, 256)
+  (pos_encoder): PositionalEncoding(
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (transformer_encoder): TransformerEncoder(
+    (layers): ModuleList(
+      (0-5): 6 x TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.1, inplace=False)
+        (dropout2): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (linear_out): Linear(in_features=256, out_features=382, bias=True)
+)
+2024-10-02 19:56:35 - INFO - Training started for 200 epochs
+2024-10-02 19:56:35 - INFO - Starting epoch 1/200
+2024-10-02 19:56:39 - INFO - Epoch 1, Batch 0, Loss: 6.1897

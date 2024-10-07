@@ -1,0 +1,5 @@
+2024-10-02 20:12:13 - INFO - Script started
+2024-10-02 20:12:13 - INFO - Starting data preparation
+2024-10-02 20:12:23 - INFO - Data prepared: X_train shape: (515000, 50), y_train shape: (515000, 50)
+2024-10-02 20:12:24 - INFO - DataLoader created with batch_size=500
+2024-10-02 20:12:24 - INFO - Exception Occurred: 'MyModel' object has no attribute 'to'
